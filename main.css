@@ -26,7 +26,7 @@ h1 {
   margin: 0 auto;
   max-width: 1000px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .dashboard-items {
   display: grid;
@@ -175,6 +175,18 @@ h1 {
 .overview-item-today-increase i,
 .overview-item-today-decrease i {
   margin-right: 5px;
+}
+
+.attribution{
+  margin: 0 auto;
+  max-width: 1000px;
+  color:rgb(15, 15, 15);
+  padding: 0px 20px 30px 20px;
+}
+
+.attribution a{
+  text-decoration: none;
+  color:rgb(43, 52, 85);
 }
 
 @media (max-width: 990px) {
