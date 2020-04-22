@@ -15,52 +15,67 @@
   <body>
     <article>
       <div class="dashboard">
-        <h1>Social Media Dashboard</h1>
+        <div class="dashboard-header-switch">
+          <div class="header-switch-text">
+            <h1>Social Media Dashboard</h1>
+            <p class="total-followers">Total Followers: 7 283</p>
+          </div>
+          <div class="switch-btn">
+            <span class="switch-btn-label">Dark Mode</span>
+            <div class="toggle-container">
+              <input
+                type="checkbox"
+                id="switch"
+                class="switch-toggle"
+                name="theme"
+              /><label for="switch">Toggle</label>
+            </div>
+          </div>
+        </div>
+
         <div class="dashboard-items">
           <div class="dashboard-item facebook">
             <div class="dashboard-item-logo">
               <i class="fa fa-facebook-official" aria-hidden="true"></i>
 
-              @meramo
+              @nathanf
             </div>
             <div class="dashboard-item-total-count">1987</div>
             <div class="dashboard-item-text">Followers</div>
             <div class="dashboard-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> 12
-              Today
+              <i class="fa fa-caret-up" aria-hidden="true"></i> 12 Today
             </div>
           </div>
           <div class="dashboard-item twitter">
             <div class="dashboard-item-logo">
               <i class="fa fa-twitter-square" aria-hidden="true"></i>
 
-              @meramo
+              @nathanf
             </div>
             <div class="dashboard-item-total-count">2003</div>
             <div class="dashboard-item-text">Followers</div>
             <div class="dashboard-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> 2 Today
+              <i class="fa fa-caret-up" aria-hidden="true"></i> 2 Today
             </div>
           </div>
           <div class="dashboard-item instagram">
             <div class="dashboard-item-logo">
-              <i class="fa fa-instagram" aria-hidden="true"></i>@meramo
+              <i class="fa fa-instagram" aria-hidden="true"></i>@nathanf
             </div>
             <div class="dashboard-item-total-count">1789</div>
             <div class="dashboard-item-text">Followers</div>
             <div class="dashboard-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> 13
-              Today
+              <i class="fa fa-caret-up" aria-hidden="true"></i> 13 Today
             </div>
           </div>
           <div class="dashboard-item youtube">
             <div class="dashboard-item-logo">
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>meramo
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>Nathanf F.
             </div>
             <div class="dashboard-item-total-count">1504</div>
             <div class="dashboard-item-text">Followers</div>
             <div class="dashboard-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> 7 Today
+              <i class="fa fa-caret-up" aria-hidden="true"></i> 7 Today
             </div>
           </div>
         </div>
@@ -76,7 +91,7 @@
             </div>
             <div class="overview-item-count">87</div>
             <div class="overview-item-today-decrease">
-              <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>3
+              <i class="fa fa-caret-down" aria-hidden="true"></i>1
             </div>
           </div>
           <div class="overview-item twitter">
@@ -86,7 +101,7 @@
             </div>
             <div class="overview-item-count">109</div>
             <div class="overview-item-today-decrease">
-              <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>3
+              <i class="fa fa-caret-down" aria-hidden="true"></i>3
             </div>
           </div>
           <div class="overview-item instagram">
@@ -96,7 +111,7 @@
             </div>
             <div class="overview-item-count">20</div>
             <div class="overview-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>3
+              <i class="fa fa-caret-up" aria-hidden="true"></i>9
             </div>
           </div>
           <div class="overview-item youtube">
@@ -105,8 +120,8 @@
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
             </div>
             <div class="overview-item-count">127</div>
-            <div class="overview-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>2
+            <div class="overview-item-today-decrease">
+              <i class="fa fa-caret-down" aria-hidden="true"></i>2
             </div>
           </div>
           <div class="overview-item facebook">
@@ -116,7 +131,7 @@
             </div>
             <div class="overview-item-count">17</div>
             <div class="overview-item-today-decrease">
-              <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>3
+              <i class="fa fa-caret-down" aria-hidden="true"></i>2
             </div>
           </div>
           <div class="overview-item twitter">
@@ -126,7 +141,7 @@
             </div>
             <div class="overview-item-count">28</div>
             <div class="overview-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>3
+              <i class="fa fa-caret-up" aria-hidden="true"></i>3
             </div>
           </div>
           <div class="overview-item instagram">
@@ -136,7 +151,7 @@
             </div>
             <div class="overview-item-count">4</div>
             <div class="overview-item-today-increase">
-              <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>3
+              <i class="fa fa-caret-up" aria-hidden="true"></i>11
             </div>
           </div>
           <div class="overview-item youtube">
@@ -146,7 +161,7 @@
             </div>
             <div class="overview-item-count">23</div>
             <div class="overview-item-today-decrease">
-              <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>3
+              <i class="fa fa-caret-down" aria-hidden="true"></i>7
             </div>
           </div>
         </div>
@@ -154,8 +169,12 @@
     </article>
 
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by Marcelina Siwecka.
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by Marcelina Siwecka.
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
